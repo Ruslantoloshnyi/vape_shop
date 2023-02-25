@@ -1,4 +1,9 @@
 /*Homepage header*/
+
+.back-color {
+    background-color: #fcfafa;
+}
+
 .header-title {
     display: flex;
     justify-content: space-evenly;
@@ -211,9 +216,8 @@
 }
 
 .footer-section {
-    background-color: #fcb6ed;
-    margin-top: 70px;
-    height: 500px;
+    background-color: #fcfafa;
+    height: 400px;
 }
 
 .footer-content {
@@ -458,4 +462,93 @@
     height: 70%;
     width: 100%;
     position: absolute;
+}
+
+/*Busket*/
+
+.busket-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+}
+
+.busket-product-name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #BF1E77;
+}
+
+.busket-product-price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #545155;
+}
+
+.product-quantity {
+    display: flex;
+}
+
+.minus-btn {
+    width: 30px;
+    border: none;
+    background-color: #fceded;
+    color: #BF1E77;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+}
+
+.quantity input {
+    width: 50px;
+    border: none;
+    background-color: #fceded;
+    text-align: center;
+}
+
+.quantity input:focus {
+    outline: none;
+}
+
+.plus-btn {
+    width: 30px;
+    border: none;
+    background-color: #fceded;
+    color: #BF1E77;
+}
+
+@media (max-width: 768px) {
+    .quantity {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.busket-quantity-price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #545155;
+}
+
+.busket-product-section {
+    border-bottom: solid 1px #fadede;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.busket-button {
+    display: flex;
+    justify-content: center;
+    
 }
