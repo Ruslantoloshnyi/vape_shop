@@ -681,3 +681,35 @@ legend {
         color: #ffffff;
     }
 }
+
+.order-return {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.order-return-button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #BF1E77;
+    border: none;
+    border-radius: 4px 4px 4px 4px;
+    color: #ffffff;
+}
+
+@media (max-width: 440px){
+   
+    .order-return-button {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #BF1E77;
+        border: none;
+        border-radius: 4px 4px 4px 4px;
+        color: #ffffff;
+    }
+    
+}
