@@ -80,9 +80,6 @@
 }
 
 /*Homepage Sale section*/
-.front-sale-section {
-    background-color: red;
-}
 
 .front-sale {
     display: flex;
@@ -216,8 +213,10 @@
 }
 
 .footer-section {
-    background-color: #fcfafa;
+    background-color: #fce8e8;
     height: 400px;
+    border-top: solid 1px #fcc2c2;
+    margin-top: 30px;
 }
 
 .footer-content {
@@ -316,6 +315,8 @@
 
 /*Catalog-product*/
 .sort {
+    display: flex;
+    align-items: center;   
     margin-top: 15px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -323,6 +324,12 @@
     font-size: 16px;
     line-height: 150%;
     color: #545155;
+}
+
+.sort-img {
+    max-width: 100%;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 /*Product-review*/
@@ -388,11 +395,16 @@
 
 .review-img {
     width: 100%;
-    height: 100%;
+    
     object-fit: cover;
+    max-height: 100%;
 }
 
 /*Contacts*/
+.contacts-section {
+    margin-bottom: -100px;
+}
+
 .contacts-head h2 {
     font-family: 'Montserrat';
     font-style: normal;
